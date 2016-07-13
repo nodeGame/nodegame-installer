@@ -1,6 +1,7 @@
 # nodegame-installer BETA
 
-Install nodeGame with configurable options. Experimental.
+**Warning**: You should probably use the installer from the
+  [nodegame.org](nodegame.org) website.
 
 ## License
 
