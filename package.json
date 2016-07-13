@@ -31,7 +31,7 @@
     }            
   , "license": "MIT"
   , "scripts": {
-    "prepublish": "ln -s -f node_modules/ultimatum-game games/ultimatum",
+    "prepublish": "ln -s -f ../node_modules/ultimatum-game games/ultimatum",
     "start": "node launcher.js"
   }
 }
