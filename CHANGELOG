@@ -1,0 +1,4 @@
+# nodegame-installer
+
+## 0.0.1
+First version. Install all stable nodeGame components and copies the ultimatum game in the games/ folder. Won't work with Windows.

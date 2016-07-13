@@ -1,0 +1,37 @@
+{
+    "name": "nodegame-installer"
+  , "description": "Installs nodeGame according to preconfigured options."
+  , "version": "0.0.1"
+  , "homepage": "http://nodegame.org"
+  , "author": "Stefano Balietti <futur.dorko@gmail.com>"
+  , "contributors": [
+        { "name": "Stefano Balietti", "email": "futur.dorko@gmail.com" }
+    ]
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/nodeGame/nodegame-installer.git"
+    }
+  , "engines": { "node": ">= 0.10.0" }
+  , "dependencies" : {
+         "commander": "*",
+         "nodegame-client": "*",
+         "nodegame-server": "*",
+         "nodegame-window": "*",
+         "nodegame-widgets": "*",
+         "nodegame-requirements": "*",
+         "nodegame-monitor": "*",
+         "JSUS": "*",
+         "NDDB": "*",
+         "shelf.js": "*",
+         "descil-mturk": "*",
+         "nodegame-db": "*",
+         "nodegame-mongodb": "*",
+         "nodegame-generator": "*",
+         "ultimatum-game": "*"
+    }            
+  , "license": "MIT"
+  , "scripts": {
+    "prepublish": "ln -s node_modules/ultimatum-game games/ultimatum",
+    "start": "node launcher.js"
+  }
+}
