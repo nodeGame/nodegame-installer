@@ -1,7 +1,7 @@
 {
     "name": "nodegame-installer"
   , "description": "Installs nodeGame according to preconfigured options."
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "homepage": "http://nodegame.org"
   , "author": "Stefano Balietti <futur.dorko@gmail.com>"
   , "contributors": [
@@ -31,7 +31,7 @@
     }            
   , "license": "MIT"
   , "scripts": {
-    "prepublish": "ln -s node_modules/ultimatum-game games/ultimatum",
+    "prepublish": "ln -s -f node_modules/ultimatum-game games/ultimatum",
     "start": "node launcher.js"
   }
 }
