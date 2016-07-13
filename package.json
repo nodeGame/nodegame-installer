@@ -1,7 +1,7 @@
 {
     "name": "nodegame-installer"
   , "description": "Installs nodeGame according to preconfigured options."
-  , "version": "0.0.2"
+  , "version": "0.0.3"
   , "homepage": "http://nodegame.org"
   , "author": "Stefano Balietti <futur.dorko@gmail.com>"
   , "contributors": [
